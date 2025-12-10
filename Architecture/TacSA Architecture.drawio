@@ -1,14 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Safari/605.1.15" version="29.2.6">
   <diagram name="Page-1" id="vcE2MjvikUCUk_5GCX4o">
-    <mxGraphModel dx="1688" dy="1991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2314" dy="2589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="BZn2Hhz-hmd8VsiN0A5i-5" parent="1" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_aws_cloud_alt;strokeColor=#232F3E;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#232F3E;dashed=0;" value="AWS Cloud" vertex="1">
           <mxGeometry height="1840" width="1040" x="-160" y="-80" as="geometry" />
-        </mxCell>
-        <mxCell id="oHC8gl764PLlJTevl-8K-43" parent="BZn2Hhz-hmd8VsiN0A5i-5" style="fillColor=none;strokeColor=#5A6C86;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#5A6C86;whiteSpace=wrap;html=1;" value="API Hub" vertex="1">
-          <mxGeometry height="360" width="320" x="400" y="200" as="geometry" />
         </mxCell>
         <mxCell id="BZn2Hhz-hmd8VsiN0A5i-16" parent="BZn2Hhz-hmd8VsiN0A5i-5" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_vpc2;strokeColor=#8C4FFF;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#AAB7B8;dashed=0;" value="VPC" vertex="1">
           <mxGeometry height="1200" width="960" x="40" y="600" as="geometry" />
@@ -222,7 +219,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BZn2Hhz-hmd8VsiN0A5i-26" parent="BZn2Hhz-hmd8VsiN0A5i-5" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=#7AA116;fillColor=#F2F6E8;verticalAlign=top;align=left;spacingLeft=30;fontColor=#248814;dashed=0;" value="Edge / Web Tier - Public Subnet" vertex="1">
-          <mxGeometry height="361" width="320" x="40" y="200" as="geometry" />
+          <mxGeometry height="361" width="480" x="40" y="200" as="geometry" />
         </mxCell>
         <mxCell id="oHC8gl764PLlJTevl-8K-20" edge="1" parent="BZn2Hhz-hmd8VsiN0A5i-26" source="BZn2Hhz-hmd8VsiN0A5i-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="BZn2Hhz-hmd8VsiN0A5i-37">
           <mxGeometry relative="1" as="geometry" />
@@ -238,6 +235,12 @@
         </mxCell>
         <mxCell id="BZn2Hhz-hmd8VsiN0A5i-37" parent="BZn2Hhz-hmd8VsiN0A5i-26" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;" value="S3 Static Website Bucket&lt;div&gt;(HTLM/JS/CSS/React)&lt;/div&gt;" vertex="1">
           <mxGeometry height="78" width="78" x="42" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="oHC8gl764PLlJTevl-8K-39" parent="BZn2Hhz-hmd8VsiN0A5i-26" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.api_gateway;" value="CloudFront origin&lt;div&gt;API Gateway (Caching)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="78" width="78" x="360" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="oHC8gl764PLlJTevl-8K-40" edge="1" parent="BZn2Hhz-hmd8VsiN0A5i-26" source="oHC8gl764PLlJTevl-8K-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" target="BZn2Hhz-hmd8VsiN0A5i-20" value="Caching">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oHC8gl764PLlJTevl-8K-3" parent="BZn2Hhz-hmd8VsiN0A5i-5" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=#7AA116;fillColor=#F2F6E8;verticalAlign=top;align=left;spacingLeft=30;fontColor=#248814;dashed=0;" value="Identity &amp;amp; Payments - Public Subnet" vertex="1">
           <mxGeometry height="520" width="240" x="760" y="40" as="geometry" />
@@ -272,12 +275,6 @@
               <mxPoint x="300" y="120" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="oHC8gl764PLlJTevl-8K-39" parent="BZn2Hhz-hmd8VsiN0A5i-5" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.api_gateway;" value="CloudFront origin&lt;div&gt;API Gateway (Caching)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="78" width="78" x="440" y="400" as="geometry" />
-        </mxCell>
-        <mxCell id="oHC8gl764PLlJTevl-8K-40" edge="1" parent="BZn2Hhz-hmd8VsiN0A5i-5" source="oHC8gl764PLlJTevl-8K-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" target="BZn2Hhz-hmd8VsiN0A5i-20" value="Caching">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BZn2Hhz-hmd8VsiN0A5i-14" parent="BZn2Hhz-hmd8VsiN0A5i-5" style="sketch=0;outlineConnect=0;gradientColor=none;fontColor=#545B64;strokeColor=none;fillColor=#879196;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.illustration_users;pointerEvents=1" value="users" vertex="1">
           <mxGeometry height="80" width="80" x="60" y="80" as="geometry" />
